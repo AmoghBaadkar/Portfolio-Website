@@ -111,3 +111,8 @@ body {
 .project:hover {
   transform: translateY(-8px) scale(1.02);
 }
+
+.projects {
+  max-width: 900px;
+  margin: auto;
+}
