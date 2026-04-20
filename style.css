@@ -98,11 +98,16 @@ body {
   margin-top: 10px;
   text-decoration: none;
   color: white;
-  background: #007bff;
+  background: linear-gradient(45deg, #007bff, #00c6ff);
   padding: 8px 15px;
   border-radius: 6px;
+  transition: 0.3s;
 }
 
 .project a:hover {
-  background: #0056b3;
+  opacity: 0.85;
+}
+
+.project:hover {
+  transform: translateY(-8px) scale(1.02);
 }
